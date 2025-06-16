@@ -1,0 +1,51 @@
+r1 
+r2 
+r8
+
+r3
+r6
+r7
+
+r4
+r5
+
+    <h1>Produtos</h1>
+
+    <div class="container">
+        <div class="bloco">
+            <h2>Bloco 1</h2>
+            <p>Conteúdo do bloco 1.</p>
+        </div>
+        <div class="bloco">
+            <h2>Bloco 2</h2>
+            <p>Conteúdo do bloco 2.</p>
+        </div>
+        <div class="bloco">
+            <h2>Bloco 3</h2>
+            <p>Conteúdo do bloco 3.</p>
+        </div>
+    </div>
+
+
+.container {
+    display: flex;
+    /* Flexbox para organizar os blocos lado a lado */
+    gap: 20px;
+    /* Espaço entre os blocos */
+    justify-content: center;
+    /* Centraliza os blocos horizontalmente */
+}
+
+.bloco {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+}
+
+.bloco h2 {
+    margin-top: 0;
+    color: #004080;
+}
